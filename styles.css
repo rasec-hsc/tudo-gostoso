@@ -338,12 +338,18 @@ body {
 }
 @media (max-width: 600px) {
   .menu {
-    width: 100%;
+    width: 430px;
   }
   .head {
     width: 100%;
   }
 
+  .head input {
+    font-size: 15px;
+  }
+  .logo {
+    width: 200px;
+  }
   .sugestoes {
     display: none;
   }
@@ -363,5 +369,8 @@ body {
   .queijo {
     width: 100%;
     padding-left: 0;
+  }
+  .botao {
+    display: none;
   }
 }
